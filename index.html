@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        
+        <div class="name">
+          <h1 class="name__self">Name variations</h1>
+        </div>
+
+        <div>
+          <label class="label" for="component-name">Enter your name</label>
+          <input
+            type="text"
+            class="input"
+            placeholder="Your name"
+            id="your-name"
+            autocomplete="off"
+          />
+        </div>
+        <!-- table start -->
+        <table class="table" border="1">
+          <thead>
+            <tr>
+              <th width="200px">Variation</th>
+              <th>Result</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Number of characters</td>
+              <td id="answer1"></td>
+            </tr>
+            <tr>
+              <td>First character</td>
+              <td id="answer2"></td>
+            </tr>
+            <tr>
+              <td>Last character</td>
+              <td id="answer3"></td>
+            </tr>
+            <tr>
+              <td>Lower case</td>
+              <td id="answer4"></td>
+            </tr>
+            <tr>
+              <td>Upper case</td>
+              <td id="answer5"></td>
+            </tr>
+            <tr>
+              <td>Capitalize</td>
+              <td id="answer6"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
